@@ -1,3 +1,17 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: #0D9488 #171717; 
+}
+
+
+.active {
+  font-weight: bold;
+  text-decoration: underline; 
+  color: #ffffff; 
+}

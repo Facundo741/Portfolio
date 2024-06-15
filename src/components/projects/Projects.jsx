@@ -42,14 +42,15 @@ const Projects = () => {
                     alt={item.title}
                     className="w-full h-full object-cover"
                   />
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300"
-                  >
-                    Visitar sitio
-                  </a>
+                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visitar sitio
+                    </a>
+                  </div>
                 </div>
                 <div className="p-6 flex flex-col justify-between sm:w-3/5 md:w-1/2">
                   <div>
@@ -57,19 +58,20 @@ const Projects = () => {
                     <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6">{item.description}</p>
                     <div className="flex flex-wrap gap-4 mb-6">
                       {item.technologyLogo.map((logo, index) => (
-                        <img key={index} src={logo} alt="technology logo" className="w-8 h-8" />
+                        <img key={index} src={logo} alt="technology logo" className="w-8 h-8 mb-2" />
                       ))}
                     </div>
                   </div>
                   {item.repository && (
                     <div className="flex items-center">
+                      <span className="text-gray-700 dark:text-gray-300">Repositorio: </span>
                       <a
                         href={item.repository}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-600 dark:text-blue-400"
+                        className="text-blue-600 dark:text-blue-400 ml-2"
                       >
-                        <img src="https://skillicons.dev/icons?i=github" alt="github logo" className="w-8 h-8"/>
+                        <img src="https://skillicons.dev/icons?i=github" alt="github logo" className="w-8 h-8 mr-2"/>
                       </a>
                     </div>
                   )}

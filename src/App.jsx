@@ -1,23 +1,24 @@
-import React from "react";
-import Navbar from "./components/navbar/Navbar";
-import Home from "./components/home/Home";
-import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+import React from 'react';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <div className="dark:bg-neutral-900 dark:text-white">
       <Navbar />
-      <div id="inicio">
+      <Element name="inicio" className="element">
         <Home />
-      </div>
-      <div id="proyectos">
+      </Element>
+      <Element name="proyectos" className="element">
         <Projects />
-      </div>
-      <div id="contacto">
+      </Element>
+      <Element name="contacto" className="element">
         <Contact />
-      </div>
+      </Element>
       <Footer />
     </div>
   );

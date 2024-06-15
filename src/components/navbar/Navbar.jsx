@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link as ScrollLink, animateScroll as scroll, Element } from 'react-scroll';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="max-w-screen-lg mx-auto px-6">
         <div className="flex items-center justify-between flex-wrap py-6">
           <div className="flex items-center flex-shrink-0 text-white">
-            <span className="font-semibold text-3xl tracking-tight">Mi Portfolio</span>
+            <span className="font-semibold text-3xl tracking-tight text-white">Mi Portfolio</span>
           </div>
           <div className="block sm:hidden">
             <button
@@ -50,7 +50,8 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="block mt-4 sm:mt-0 sm:mr-4 text-teal-200 hover:text-white cursor-pointer"
+                activeClass="active"
+                className="block mt-4 sm:mt-0 sm:mr-4 text-teal-200 cursor-pointer"
                 onClick={closeMenu}
               >
                 Inicio
@@ -60,7 +61,8 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="block mt-4 sm:mt-0 sm:mr-4 text-teal-200 hover:text-white cursor-pointer"
+                activeClass="active"
+                className="block mt-4 sm:mt-0 sm:mr-4 text-teal-200 cursor-pointer"
                 onClick={closeMenu}
               >
                 Proyectos
@@ -70,7 +72,8 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="block mt-4 sm:mt-0 text-teal-200 hover:text-white cursor-pointer"
+                activeClass="active"
+                className="block mt-4 sm:mt-0 text-teal-200 cursor-pointer"
                 onClick={closeMenu}
               >
                 Contacto

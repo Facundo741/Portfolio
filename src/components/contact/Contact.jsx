@@ -161,7 +161,7 @@ const Contact = () => {
           <div className="relative flex justify-center mt-3 mb-2">
             <button
               type="submit"
-              className={`bg-teal-200 text-black px-4 py-2 rounded-lg ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+              className={`bg-teal-600 text-white px-4 py-2 rounded-lg ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
               disabled={loading}
             >
               {loading ? (
@@ -184,7 +184,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/fnsantillan/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-teal-200"
+              className="text-teal-500"
             >
               Mi Perfil de LinkedIn
             </a>
