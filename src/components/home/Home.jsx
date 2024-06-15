@@ -33,15 +33,17 @@ const Home = () => {
               Estudiante de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional.
             </p>
             <p className="text-lg text-white mb-4">
-              <span className="underline hover:text-teal-200 cursor-pointer">Curso completado</span>{' '}
-              <a
-                href="https://certs.rollingcodeschool.com//c2FudGlsbGFuZmFjdW5kbzQzQGdtYWlsLmNvbQ==-1716235917244-1.png"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                de Desarrollador Full Stack MERN en Rolling Code School.
-              </a>
-            </p>
+  <a
+    href="https://certs.rollingcodeschool.com//c2FudGlsbGFuZmFjdW5kbzQzQGdtYWlsLmNvbQ==-1716235917244-1.png"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-teal-200 cursor-pointer"
+  >
+    Curso completado
+  </a>{' '}
+  de Desarrollador Full Stack MERN en Rolling Code School.
+</p>
+
           </div>
         </div>
         <div className="mt-8">
