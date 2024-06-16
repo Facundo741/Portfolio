@@ -81,7 +81,12 @@ const Home = () => {
               <span className="text-sm text-gray-300 mt-2">MongoDB</span>
             </div>
             <div className="flex flex-col items-center">
-              <img src="https://cdn.simpleicons.org/express/000000" alt="express logo" className="icon" style={{ width: '40px', height: '40px' }} />
+              <img 
+                src="https://cdn.simpleicons.org/express/000000" 
+                alt="express logo" 
+                className="icon" 
+                style={{ width: '40px', height: '40px', filter: 'invert(1)' }} 
+              />
               <span className="text-sm text-gray-300 mt-2">Express</span>
             </div>
             <div className="flex flex-col items-center">
