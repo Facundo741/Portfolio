@@ -1,9 +1,8 @@
-# React + Vite
+<h1 align="center">Este es mi portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 align="center">Lo diseñé usando las siguientes tecnologías: </h2>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Portfolio
+<div align="center">
+  <img src="https://cdn.simpleicons.org/react/61DAFB" height="50" alt="react logo" style="vertical-align: middle; margin-right: 35px;" />
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="50" alt="tailwindcss logo" style="vertical-align: middle;" />
+</div>
