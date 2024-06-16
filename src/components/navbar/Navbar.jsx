@@ -12,6 +12,7 @@ const Navbar = () => {
 
   const handleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    
   };
 
   const closeMenu = () => {
