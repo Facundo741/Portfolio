@@ -5,7 +5,7 @@ const data = [
     src: 'https://i.postimg.cc/ZRLnRFSs/alfajores.png',
     title: 'Alfajores del Tucuman',
     description: 'Ecommerce de productos regionales.',
-    link: 'https://alfajoresdeltucuman.com.ar',
+    link: 'https://alfatuc.netlify.app',
     repository: '',
     technologyLogo: ['https://cdn.simpleicons.org/react/61DAFB', 'https://cdn.simpleicons.org/mongodb/47A248', 'https://cdn.simpleicons.org/express/000000', 'https://cdn.simpleicons.org/nodedotjs/339933', 'https://cdn.simpleicons.org/bootstrap/7952B3']
   },
